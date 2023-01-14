@@ -13,3 +13,8 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function newProject() {
+    saveEl.textContent = "Previous Entries: "
+    count = 0
+}
